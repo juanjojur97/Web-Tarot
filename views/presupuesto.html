@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="¿Quieres saber lo que te depara el futuro o tienes curiosidad por algun aspecto de tu vida? Entra y descubrirás cosas que no podias imaginar.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/estilos-formulario.css">
+    <title>Tarot</title>
+</head>
+
+<body>
+    <div class="padre">
+        <header class="header">
+            <div class="menu margen-interno">
+                <div class="logo"><a href="../index.html">Aquelarre Rebe</a></div>
+                <nav class="nav">
+                    <a href="/index.html">Inicio</a>
+                    <a href="/views/productos.html">Lecturas</a>
+                    <a class="active" href="#">Presupuesto</a>
+                    <a href="/views/contacto.html">Contacto</a>
+                </nav>
+                <div class="social">
+                    <a target="_blank" href="https://www.instagram.com/aquelarre_rbe/"><i
+                            class="fa-brands fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </header>
+        <main class="form">
+            <div class="f-container">
+                <div class="f-title">
+                    <h2>Formulario</h2>
+                    <hr>
+                    <div class="formulario">
+                        <form id="f-form">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" placeholder="Escriba aquí su nombre" required>
+
+                            <label for="surname">Apellidos:</label>
+                            <input type="text" id="surname" name="surname" placeholder="Escriba aquí su apellido"
+                                required>
+
+                            <label for="tel">Número de telefono:</label>
+                            <input type="tel" id="tel" name="tel" placeholder="Escribe tu numero de movil /teléfono"
+                                required>
+
+                            <label for="correo">Correo Electrónico: </label>
+                            <input type="email" id="correo" name="correo" placeholder="Escriba su correo electrónico"
+                                required>
+
+                            <label for="message">Tiradas de interes:</label>
+                            <textarea name="message" id="message" required></textarea>
+
+                            <label for="checkbox">*Acepta la política de privacidad</label>
+                            <input type="checkbox" name="checkbox" id="checkbox" required>
+
+                            <button class="enviar" type="submit">Enviar</button>
+
+                            <p>Escríbenos un mensaje con tus dudas acerca de tu futuro, con gusto obtendrá una respuesta rápida.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>    
+    </div>
+        
+    <footer class="footer">
+        <nav class="n-footer margen-interno">
+            <a href="">Telefono de contacto: 625478384</a>
+            <a href="">Aviso legal</a>
+        </nav>
+    </footer>
+
+    
+</body>
+
+</html>
